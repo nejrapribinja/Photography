@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.gallery {
+  background-color: #FFEDDB;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+p {
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.about {
+  background-color: #B4846C;
+  color: white;
+}
+
+.reservation {
+  background-image: url('../images/2.jpg');
+  background-size: cover;
+  height: 70vh;
+  color: white;
+}
+
+.contact {
+  background-color: #b4846cdb;
+  font-size: 18px;
+}
+
+.reservation button {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  background-color: #b4846c;
+  margin: 0 auto;
+  border: 1px solid #a39c8c;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.reservation button:hover {
+  background-color: #b4846c8b;
+  border: 1px solid #a39c8c;
+}
+
+.card-body {
+  color: black;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+h1 {
+  padding: 50px;
+}
+
+@media only screen and (max-width: 991.2px) {
+  .navbar-collapse {
+    background-color: #b4846c;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  .carousel {
+    height: 30vh;
+  }
+
+  .carousel-item {
+    height: 30vh;
+  }
+}
+
+.navbar-bg {
+  visibility: hidden;
+}
+
+.ponuda {
+  font-size: 20px;
+}
+
+.ponuda a {
+  text-decoration: none;
+  color: black;
+}
+
+.ponuda a:hover {
+  color: #FFEDDB;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact a:hover {
+  color: #FFEDDB;
+}
+
+.gallery a {
+  text-decoration: none;
+  color: black;
+}
+
+.gallery a:hover {
+  color: #B4846C;
+}
+
+.reservation {
+  text-decoration: none;
+  color: white;
+}
+
+.reservation a:hover {
+  color: black;
+}
+
+.gallery .card-title {
+  margin-bottom: 30px;
+}
+
+.gallery button {
+  background-color: #b4846c;
+  border: 1px solid #a39c8c;
+}
+
+.gallery button:hover {
+  background-color: #bbac9800;
+  border: 1px solid #a39c8c;
+  color: black;
+}
+
+.gallery .card-img-top {
+  transition: transform .5s, filter 1.5s ease-in-out;
+}
+
+.allimg {
+  background-color: #b4846c;
+}
+
+.allimg button {
+  background-color: #FFEDDB;
+  color: #b4846c;
+  border: 1px solid #a39c8c;
+  margin-bottom: 1rem;
+}
+
+.allimg button:hover {
+  background-color: #efd8c0;
+  color: #b4846c;
+  border: 1px solid #a39c8c;
+}
+
+/* The Transformation */
+.gallery .card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.gallery .card-title {
+  font-size: 30px;
+}
+
+.form {
+  background-color: #b4846c;
+  color: white;
+  height: 100vh;
+}
+
+.form button {
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid #a39c8c;
+  color: black;
+}
+
+.form button:hover {
+  background-color: rgba(92, 89, 89, 0.596);
+  border: 1px solid #a39c8c;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.error {
+  font-size: 25px;
+  background-color: #3f3c3441;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+h2 {
+  padding-bottom: 60px;
+}
+
+/*administrator*/
+.login {
+  background-color: rgba(0, 0, 0, 0.856);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  height: 80vh;
+}
+
+h3 {
+  padding: 40px;
+}
+
+.galleryimg {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+}
+
+.galleryimg .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.galleryimg .pics:hover {
+  filter: opacity(.9);
+}
+
+@media (max-width: 991px) {
+  .galleryimg {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .galleryimg {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000bc;
+  transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.model img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+  line-height: 0;
+  padding: 20px 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.model.open svg {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .pro-sidebar {
+    max-width:2rem;
+  }
+}
