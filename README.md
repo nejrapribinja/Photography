@@ -1,3 +1,3 @@
 # Photography-Node-PostgreSQL-React
 # Video prikaz aplikacije - Završni projekat
-[![Video prikaz aplikacije](https://img.youtube.com/vi/ZCEbc5A4MpI/1.jpg)](https://www.youtube.com/watch?v=ZCEbc5A4MpI)
+[![Video prikaz aplikacije](https://img.youtube.com/vi/ZCEbc5A4MpI/3.jpg)](https://www.youtube.com/watch?v=ZCEbc5A4MpI)
